@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E17CBD1C8C9B70006305D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E17CBC1C8C9B70006305D9 /* AppDelegate.swift */; };
+		13E17CBF1C8C9B70006305D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E17CBE1C8C9B70006305D9 /* ViewController.swift */; };
+		13E17CC21C8C9B70006305D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E17CC01C8C9B70006305D9 /* Main.storyboard */; };
+		13E17CC41C8C9B70006305D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E17CC31C8C9B70006305D9 /* Assets.xcassets */; };
+		13E17CC71C8C9B70006305D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E17CC51C8C9B70006305D9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13E17CB91C8C9B70006305D9 /* Soldier_Orc-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soldier_Orc-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E17CBC1C8C9B70006305D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E17CBE1C8C9B70006305D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13E17CC11C8C9B70006305D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E17CC31C8C9B70006305D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E17CC61C8C9B70006305D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E17CC81C8C9B70006305D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E17CB61C8C9B70006305D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E17CB01C8C9B70006305D9 = {
+			isa = PBXGroup;
+			children = (
+				13E17CBB1C8C9B70006305D9 /* Soldier_Orc-Game */,
+				13E17CBA1C8C9B70006305D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13E17CBA1C8C9B70006305D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E17CB91C8C9B70006305D9 /* Soldier_Orc-Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E17CBB1C8C9B70006305D9 /* Soldier_Orc-Game */ = {
+			isa = PBXGroup;
+			children = (
+				13E17CBC1C8C9B70006305D9 /* AppDelegate.swift */,
+				13E17CBE1C8C9B70006305D9 /* ViewController.swift */,
+				13E17CC01C8C9B70006305D9 /* Main.storyboard */,
+				13E17CC31C8C9B70006305D9 /* Assets.xcassets */,
+				13E17CC51C8C9B70006305D9 /* LaunchScreen.storyboard */,
+				13E17CC81C8C9B70006305D9 /* Info.plist */,
+			);
+			path = "Soldier_Orc-Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E17CB81C8C9B70006305D9 /* Soldier_Orc-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E17CCB1C8C9B70006305D9 /* Build configuration list for PBXNativeTarget "Soldier_Orc-Game" */;
+			buildPhases = (
+				13E17CB51C8C9B70006305D9 /* Sources */,
+				13E17CB61C8C9B70006305D9 /* Frameworks */,
+				13E17CB71C8C9B70006305D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soldier_Orc-Game";
+			productName = "Soldier_Orc-Game";
+			productReference = 13E17CB91C8C9B70006305D9 /* Soldier_Orc-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E17CB11C8C9B70006305D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Muhammad Ali";
+				TargetAttributes = {
+					13E17CB81C8C9B70006305D9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y3E9475765;
+					};
+				};
+			};
+			buildConfigurationList = 13E17CB41C8C9B70006305D9 /* Build configuration list for PBXProject "Soldier_Orc-Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E17CB01C8C9B70006305D9;
+			productRefGroup = 13E17CBA1C8C9B70006305D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E17CB81C8C9B70006305D9 /* Soldier_Orc-Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E17CB71C8C9B70006305D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E17CC71C8C9B70006305D9 /* LaunchScreen.storyboard in Resources */,
+				13E17CC41C8C9B70006305D9 /* Assets.xcassets in Resources */,
+				13E17CC21C8C9B70006305D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E17CB51C8C9B70006305D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E17CBF1C8C9B70006305D9 /* ViewController.swift in Sources */,
+				13E17CBD1C8C9B70006305D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13E17CC01C8C9B70006305D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E17CC11C8C9B70006305D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13E17CC51C8C9B70006305D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E17CC61C8C9B70006305D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E17CC91C8C9B70006305D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E17CCA1C8C9B70006305D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E17CCC1C8C9B70006305D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Soldier_Orc-Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ali.Soldier-Orc-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13E17CCD1C8C9B70006305D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Soldier_Orc-Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ali.Soldier-Orc-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E17CB41C8C9B70006305D9 /* Build configuration list for PBXProject "Soldier_Orc-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E17CC91C8C9B70006305D9 /* Debug */,
+				13E17CCA1C8C9B70006305D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E17CCB1C8C9B70006305D9 /* Build configuration list for PBXNativeTarget "Soldier_Orc-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E17CCC1C8C9B70006305D9 /* Debug */,
+				13E17CCD1C8C9B70006305D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E17CB11C8C9B70006305D9 /* Project object */;
+}
