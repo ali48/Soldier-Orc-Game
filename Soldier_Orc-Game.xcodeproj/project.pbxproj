@@ -12,6 +12,9 @@
 		13E17CC21C8C9B70006305D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E17CC01C8C9B70006305D9 /* Main.storyboard */; };
 		13E17CC41C8C9B70006305D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E17CC31C8C9B70006305D9 /* Assets.xcassets */; };
 		13E17CC71C8C9B70006305D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E17CC51C8C9B70006305D9 /* LaunchScreen.storyboard */; };
+		13E17CCF1C8C9BCE006305D9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E17CCE1C8C9BCE006305D9 /* Character.swift */; };
+		13E17CD11C8CB0D6006305D9 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E17CD01C8CB0D6006305D9 /* Soldier.swift */; };
+		13E17CD31C8CCE89006305D9 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E17CD21C8CCE89006305D9 /* Orc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		13E17CC31C8C9B70006305D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13E17CC61C8C9B70006305D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13E17CC81C8C9B70006305D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E17CCE1C8C9BCE006305D9 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		13E17CD01C8CB0D6006305D9 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		13E17CD21C8CCE89006305D9 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				13E17CC31C8C9B70006305D9 /* Assets.xcassets */,
 				13E17CC51C8C9B70006305D9 /* LaunchScreen.storyboard */,
 				13E17CC81C8C9B70006305D9 /* Info.plist */,
+				13E17CCE1C8C9BCE006305D9 /* Character.swift */,
+				13E17CD01C8CB0D6006305D9 /* Soldier.swift */,
+				13E17CD21C8CCE89006305D9 /* Orc.swift */,
 			);
 			path = "Soldier_Orc-Game";
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E17CCF1C8C9BCE006305D9 /* Character.swift in Sources */,
 				13E17CBF1C8C9B70006305D9 /* ViewController.swift in Sources */,
+				13E17CD11C8CB0D6006305D9 /* Soldier.swift in Sources */,
+				13E17CD31C8CCE89006305D9 /* Orc.swift in Sources */,
 				13E17CBD1C8C9B70006305D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +297,7 @@
 				13E17CCD1C8C9B70006305D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
